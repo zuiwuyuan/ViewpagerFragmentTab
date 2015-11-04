@@ -1,0 +1,2 @@
+# ViewpagerFragmentTab
+Viewpager+Fragment实现的底部导航栏，ViewPager通过重写源码，可以实现去除预加载功能；首页的tab支持双击。
