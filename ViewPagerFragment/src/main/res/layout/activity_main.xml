@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lnyp.vf.ContainerViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#ececec"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_main"
+            style="@style/navigation_style"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_main_bottom_tab_first"
+            android:paddingLeft="0dp"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/radio_projects"
+            style="@style/navigation_style"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_bottom_tab_second"
+            android:paddingLeft="0dp"
+            android:text="活动" />
+
+        <RadioButton
+            android:id="@+id/radio_studys"
+            style="@style/navigation_style"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_bottom_tab_third"
+            android:paddingLeft="0dp"
+            android:text="社区" />
+
+        <RadioButton
+            android:id="@+id/radio_user_center"
+            style="@style/navigation_style"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_bottom_tab_forth"
+            android:paddingLeft="0dp"
+            android:text="我的" />
+    </RadioGroup>
+
+</RelativeLayout>

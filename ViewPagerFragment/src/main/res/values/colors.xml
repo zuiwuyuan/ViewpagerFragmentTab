@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 底部导航页的文字变化 -->
+    <color name="bottom_text_uncheck">#555555</color>
+    <color name="bottom_text_checked">#4483c9</color>
+
+</resources>
